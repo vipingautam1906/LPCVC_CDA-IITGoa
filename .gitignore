@@ -1,0 +1,8 @@
+__pycache__/
+
+preprocessed_tensors/
+full_dataset/
+bad_videos/
+old_weights/
+weights/
+export_assets/
