@@ -70,6 +70,7 @@ python references/video_classification/train-videoMix.py \
 #### Eval 
 To reproduce our results, download the reported weights from the provided URL and place the file at:
 ```bash
+mkdir weights
 weights/model_4.pth
 ```
 Run below to finaly evaluate 
