@@ -47,6 +47,8 @@ To enhance robustness and performance, we employ a probabilistic augmentation st
 - 🎞️ **VideoColorJitter** — *50% probability*  
   - Introduces temporal variation for better robustness  
 
+Parts of the mixing augmentation implementation are adapted from the VideoMix method proposed in:
+Yun, S., et al. “VideoMix: Rethinking Data Augmentation for Video Classification.” arXiv preprint arXiv:2012.03457, 2020.
 
 ## ⚙️ Main Script
 
