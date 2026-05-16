@@ -43,22 +43,17 @@ To enhance robustness and performance, we employ a probabilistic augmentation st
 <td align="center">
 
 ### 🔀 VideoMix  
-**Probability:** 60%
+
 
 <img src="augs/VideoMix.png" width="420"/>
-
-Mixes video clips to improve temporal generalization.
 
 </td>
 
 <td align="center">
 
 ### 🧱 StackMix  
-**Probability:** 10%
 
 <img src="augs/StackMix.png" width="420"/>
-
-Combines spatial-temporal segments across samples.
 
 </td>
 </tr>
@@ -67,11 +62,9 @@ Combines spatial-temporal segments across samples.
 <td colspan="2" align="center">
 
 ### 🎞️ VideoColorJitter  
-**Probability:** 50%
 
 <img src="augs/VideoColorJitter.png" width="500"/>
 
-Introduces temporal variation for improved robustness.
 
 </td>
 </tr>
