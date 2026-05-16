@@ -38,37 +38,44 @@ Instead of modifying the architecture, we focused on:
 
 To enhance robustness and performance, we employ a probabilistic augmentation stack.
 
----
+<table align="center">
+<tr>
+<td align="center">
 
-### 🔀 VideoMix
+### 🔀 VideoMix  
 **Probability:** 60%
 
-<p align="center">
-  <img src="augs/VideoMix.png" width="700"/>
-</p>
+<img src="augs/VideoMix.png" width="420"/>
 
 Mixes video clips to improve temporal generalization.
 
----
+</td>
 
-### 🧱 StackMix
+<td align="center">
+
+### 🧱 StackMix  
 **Probability:** 10%
 
-<p align="center">
-  <img src="augs/StackMix.png" width="700"/>
-</p>
+<img src="augs/StackMix.png" width="420"/>
 
 Combines spatial-temporal segments across samples.
 
----
+</td>
+</tr>
 
-### 🎞️ VideoColorJitter
+<tr>
+<td colspan="2" align="center">
+
+### 🎞️ VideoColorJitter  
 **Probability:** 50%
 
-<p align="center">
-  <img src="augs/VideoColorJitter.png" width="700"/>
-</p>
+<img src="augs/VideoColorJitter.png" width="500"/>
 
+Introduces temporal variation for improved robustness.
+
+</td>
+</tr>
+</table>
 Introduces temporal variation for improved robustness.
 Parts of the mixing augmentation implementation are adapted from the VideoMix method proposed in:
 Yun, S., et al. “VideoMix: Rethinking Data Augmentation for Video Classification.” arXiv preprint arXiv:2012.03457, 2020.
