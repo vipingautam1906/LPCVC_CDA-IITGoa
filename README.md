@@ -44,7 +44,7 @@ To enhance robustness and performance, we employ a probabilistic augmentation st
 - 🧱 **StackMix** — *10% probability*  
   - Combines spatial-temporal segments across samples  
 
-- 🎞️ **Video Jitter** — *50% probability*  
+- 🎞️ **VideoColorJitter** — *50% probability*  
   - Introduces temporal variation for better robustness  
 
 
