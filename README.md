@@ -64,10 +64,10 @@ Combines spatial-temporal segments across samples.
 
 <td align="center" width="33%">
 
-### 🎞️ VideoColorMix  
+### 🎞️ VideoColorJitter  
 **Probability:** 50%
 
-<img src="augs/VideoColorMix.png" width="250"/>
+<img src="augs/VideoColorJitter.png" width="250"/>
 
 Introduces temporal variation for improved robustness.
 
