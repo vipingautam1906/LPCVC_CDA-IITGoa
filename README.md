@@ -57,6 +57,7 @@ To enhance robustness and performance, we employ a probabilistic augmentation st
 
 
 ### Train & Eval
+#### Train
 ```bash
 python references/video_classification/train-videoMix.py \
     --data-path /path/to/dataset \
@@ -65,6 +66,25 @@ python references/video_classification/train-videoMix.py \
     --batch-size 64 \
     --amp
 ```
+
+#### Eval 
+To reproduce our results, download the reported weights from the provided URL and place the file at:
+```bash
+weights/model_4.pth
+```
+Run below to finaly evaluate 
+
+```bash
+python references/video_classification/train-videoMix.py \
+    --data-path /path/to/dataset \
+    --output-dir /path/to/save/checkpoints \
+    --epochs 50 \
+    --batch-size 64 \
+    --resume weights/model_4.pth \
+    --amp \
+    --test-only
+```
+
 ### 📤 Export (Qualcomm AI Hub)
 
 After training, export the best checkpoint for deployment on **Dragonwing IQ-9075 EVK**.
